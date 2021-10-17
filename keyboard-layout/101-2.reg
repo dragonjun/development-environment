@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters]
+"PollingIterations"=dword:00002ee0
+"PollingIterationsMaximum"=dword:00002ee0
+"ResendIterations"=dword:00000003
+"LayerDriver JPN"="kbd101.dll"
+"LayerDriver KOR"="kbd101b.dll"
+"OverrideKeyboardIdentifier"="PCAT_101BKEY"
+"OverrideKeyboardType"=dword:00000008
+"OverrideKeyboardSubtype"=dword:00000004
+
