@@ -1,0 +1,135 @@
+{
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+
+    "files.trimTrailingWhitespace": false,
+    "files.trimFinalNewlines": false,
+    "files.insertFinalNewline": false,
+    "files.eol": "auto",
+
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.suggest.insertMode": "replace"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.suggest.insertMode": "replace"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.suggest.insertMode": "replace"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all",
+        "editor.wordWrap": "off",
+        "editor.quickSuggestions": false
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[dockerfile]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    "[makefile]": {
+        "editor.insertSpaces": false
+    },
+
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "prettier.semi": true,
+    "prettier.singleQuote": false,
+    "prettier.quoteProps": "as-needed",
+    "prettier.jsxSingleQuote": false,
+    "prettier.trailingComma": "all",
+    "prettier.bracketSpacing": true,
+    "prettier.jsxBracketSameLine": false,
+    "prettier.arrowParens": "always",
+    "prettier.proseWrap": "preserve",
+    "prettier.htmlWhitespaceSensitivity": "css",
+    "prettier.vueIndentScriptAndStyle": false,
+    "prettier.endOfLine": "lf",
+    "prettier.embeddedLanguageFormatting": "auto",
+
+    "editor.rulers": [120],
+    "editor.wordWrap": "off",
+
+    "editor.acceptSuggestionOnEnter": "off",
+
+    "editor.cursorBlinking": "blink",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 0,
+
+    "editor.fontFamily": "D2Coding, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+
+    "editor.renderLineHighlight": "all",
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.js": { "when": "$(basename).ts" },
+        "**/desktop.ini": true,
+        "**/.????????-????-????-????-????????????": true
+    },
+
+    "workbench.editor.showTabs": true,
+
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "breadcrumbs.enabled": true,
+
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}",
+
+    "explorer.sortOrder": "default",
+    "editor.renderControlCharacters": true,
+    "window.zoomLevel": 2,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true
+}
