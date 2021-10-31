@@ -1,13 +1,33 @@
 # zsh
 
-## 설치
+## zsh 설치
+
+**Ubuntu, Debian, WSL 2**
 
 ```bash
-$ sudo apt install zsh
+$ sudo apt update && sudo apt upgrade -y
+$ sudo apt install zsh -y
+```
+
+**Centos/RHEL**
+
+```bash
+$ sudo yum update -y && sudo yum install zsh -y
+```
+
+**설치 확인**
+
+```bash
+$ zsh --version
+```
+
+**shell 변경**
+
+```bash
 $ chsh -s $(which zsh)
 ```
 
-shell 다시 실행
+**shell 다시 실행**
 
 ## Oh My Zsh
 
@@ -15,7 +35,7 @@ shell 다시 실행
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-shell 다시 실행
+**shell 다시 실행**
 
 ## 플러그인 설치
 
