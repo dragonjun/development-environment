@@ -13,6 +13,8 @@ Windows Subsystem for Linux (WSL) & Ubuntu
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [romkatv/powerlevel10k: A Zsh theme](https://github.com/romkatv/powerlevel10k)
+- [powerline/fonts: Patched fonts for Powerline users.](https://github.com/powerline/fonts)
+- [ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher.](https://github.com/ryanoasis/nerd-fonts)
 
 1. Zsh
    ```bash
