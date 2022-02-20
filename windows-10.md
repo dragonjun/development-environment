@@ -48,6 +48,15 @@ En-Ko-toggle-CAPS.reg 실행
 - Disk Usage v1.62
 - Adobe Acrobat Reader DC
 
+## Microsoft PowerToys 설치 & 설정
+
+- [Microsoft PowerToys](https://github.com/microsoft/PowerToys)
+
+WQHD (3440x1440)
+
+- 3분할 : 1147:1146:1147
+- 중앙2580 : 430:2580:430
+
 ## 개발 툴
 
 - [Git](https://git-scm.com/)
