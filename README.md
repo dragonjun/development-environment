@@ -22,6 +22,9 @@ Windows Subsystem for Linux (WSL) & Ubuntu
    $ sudo apt install zsh -y
    $ zsh --version
    $ sudo chsh -s $(which zsh) $(whoami)
+   $ touch .zshrc
+   $ chmod 644 .zshrc
+   $ exit
    ```
 2. Oh My Zsh
    ```bash
