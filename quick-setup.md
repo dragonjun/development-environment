@@ -18,7 +18,6 @@ Windows Subsystem for Linux (WSL) & Ubuntu
 
 ```bash
 $ mkdir temp && cd temp && \
-  sudo apt update && sudo apt upgrade -y && \
   sudo apt install zsh -y && \
   zsh --version && \
   sudo chsh -s $(which zsh) $(whoami) && \
