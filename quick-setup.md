@@ -17,7 +17,7 @@ Windows Subsystem for Linux (WSL) & Ubuntu
 ### Step 1
 
 ```bash
-$ mkdir temp && cd temp && \
+$ mkdir -p ~/temp && cd ~/temp && \
   sudo apt install zsh -y && \
   zsh --version && \
   sudo chsh -s $(which zsh) $(whoami) && \
