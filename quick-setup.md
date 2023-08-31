@@ -28,10 +28,9 @@ $ mkdir temp && cd temp && \
   sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc && \
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k && \
   sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc && \
-  sudo apt install unzip && \
   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
-  unzip awscliv2.zip && \
-  sudo ./aws/install && \
+  unzip -u awscliv2.zip && \
+  sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update && \
   aws --version && \
   echo -e "\n# AWS CLI Command completion" >>~/.zshrc && \
   echo "autoload bashcompinit && bashcompinit" >>~/.zshrc && \
